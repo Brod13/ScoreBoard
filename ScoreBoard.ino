@@ -38,7 +38,7 @@ bool saveScore = false;
 static char frame[15];
 
 /********** Bluetooth **************/
-BluetoothSerial SerialBT;
+BluetoothSerial = SerialBT;
 int incoming = 0; /* incoming message */
 
 void setup()
